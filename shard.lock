@@ -1,0 +1,66 @@
+version: 1.0
+shards:
+  authentic:
+    github: luckyframework/authentic
+    commit: 5786d59144ee0c8c1da38485de16c7522e805183
+
+  blank:
+    github: kostya/blank
+    version: 0.1.0
+
+  carbon:
+    github: luckyframework/carbon
+    commit: e58a02452349a0505411c7ff86508a65212da4da
+
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.5.0
+
+  habitat:
+    github: luckyframework/habitat
+    version: 0.2.1
+
+  lucky:
+    github: luckyframework/lucky
+    commit: cc8868521be6cd084f62968fa420719719f27196
+
+  lucky_cli:
+    github: luckyframework/lucky_cli
+    version: 0.9.2
+
+  lucky_flow:
+    github: luckyframework/lucky_flow
+    commit: b4bf1947598d018513bfd069760081f5c73be24d
+
+  lucky_inflector:
+    github: luckyframework/lucky_inflector
+    version: 0.1.1
+
+  lucky_migrator:
+    github: luckyframework/lucky_migrator
+    commit: 3c1d5efce1ed7c9509c61af2ca6ae53a2ddc0d5e
+
+  lucky_record:
+    github: luckyframework/lucky_record
+    commit: 40f1d0635c42a1812a1ca4a91abaeef7be9b4cdd
+
+  lucky_router:
+    github: luckyframework/lucky_router
+    version: 0.2.0
+
+  pg:
+    github: will/crystal-pg
+    version: 0.14.1
+
+  selenium:
+    github: ysbaddaden/selenium-webdriver-crystal
+    commit: 6ff9c1cca67b8bb6ae5bba6190a8c288e6436efa
+
+  shell-table:
+    github: jwaldrip/shell-table.cr
+    version: 0.9.2
+
+  teeplate:
+    github: bcardiff/teeplate
+    commit: 27475f26c2fba4f7ece929f89b6c0808cafcadb5
+
