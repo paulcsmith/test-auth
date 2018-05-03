@@ -1,5 +1,5 @@
 LuckyFlow.configure do
   settings.stop_retrying_after = 200.milliseconds
-  settings.url_root = "http://#{Lucky::ServerSettings.host}:#{Lucky::ServerSettings.port}"
+  settings.url_root = Lucky::RouteHelper.settings.domain
 end
 Spec.before_each { LuckyFlow.reset }
