@@ -9,7 +9,7 @@ class PasswordResetRequests::NewPage < GuestLayout
   private def render_form(f)
     form_for PasswordResetRequests::Create do
       field(f.email) { |i| email_input i }
-      submit "Reset Password"
+      submit "Reset Password", flow_id: "request-password-reset-button"
     end
   end
 end

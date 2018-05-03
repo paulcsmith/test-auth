@@ -9,7 +9,7 @@ class SignUps::NewPage < GuestLayout
   private def render_sign_up_form(f)
     form_for SignUps::Create do
       sign_up_fields(f)
-      submit "Sign Up"
+      submit "Sign Up", flow_id: "sign-up-button"
     end
     link "Sign in instead", to: SignIns::New
   end

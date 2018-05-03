@@ -4,18 +4,14 @@ require "spec"
 require "lucky_flow"
 require "../src/app"
 require "./support/**"
+require "../db/migrations/**"
 
-app = App.new
+# Add/modify files in spec/setup to start/configure programs or run hooks
+#
+# By default there are scripts for setting up and cleaning the databse,
+# configuring LuckyFlow, starting the app server, etc.
+require "./setup/**"
 
-spawn do
-  app.listen
-end
+include Carbon::Expectations
 
-at_exit do
-  LuckyFlow.shutdown
-  app.close
-end
-
-Spec.before_each do
-  LuckyRecord::Repo.truncate
-end
+Habitat.raise_if_missing_settings!

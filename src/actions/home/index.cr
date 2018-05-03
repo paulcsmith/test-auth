@@ -3,6 +3,10 @@ class Home::Index < BrowserAction
   unexpose current_user
 
   get "/" do
-    render Lucky::WelcomePage
+    if current_user?
+      redirect Me::Show
+    else
+      render Lucky::WelcomePage
+    end
   end
 end

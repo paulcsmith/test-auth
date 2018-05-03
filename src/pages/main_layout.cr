@@ -21,9 +21,8 @@ abstract class MainLayout
   end
 
   private def render_signed_in_user
-    h1 "Signed in as: "
     text @current_user.email
     text " - "
-    link "Sign out", to: SignIns::Delete
+    link "Sign out", to: SignIns::Delete, flow_id: "sign-out-button"
   end
 end

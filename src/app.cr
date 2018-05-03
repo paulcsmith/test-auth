@@ -17,8 +17,6 @@ require "./pages/**"
 require "../config/env"
 require "../config/**"
 
-Habitat.raise_if_missing_settings!
-
 class App
   private getter server
 

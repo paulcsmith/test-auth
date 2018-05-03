@@ -9,7 +9,7 @@ class SignIns::NewPage < GuestLayout
   private def render_sign_in_form(f)
     form_for SignIns::Create do
       sign_in_fields(f)
-      submit "Sign In"
+      submit "Sign In", flow_id: "sign-in-button"
     end
     link "Reset password", to: PasswordResetRequests::New
     text " | "

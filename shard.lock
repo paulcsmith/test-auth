@@ -2,7 +2,7 @@ version: 1.0
 shards:
   authentic:
     github: luckyframework/authentic
-    commit: 5786d59144ee0c8c1da38485de16c7522e805183
+    commit: 0bceeb930f5c75b4be301969c2163dd506c1d9e6
 
   blank:
     github: kostya/blank
@@ -18,11 +18,11 @@ shards:
 
   habitat:
     github: luckyframework/habitat
-    version: 0.2.1
+    commit: 25c1e4475f6e825cc2c073ecfb4e3c8965874a40
 
   lucky:
     github: luckyframework/lucky
-    commit: cc8868521be6cd084f62968fa420719719f27196
+    commit: 273bfd04af2fab87ce362de9624ee264e0ae5d9e
 
   lucky_cli:
     github: luckyframework/lucky_cli
@@ -30,7 +30,7 @@ shards:
 
   lucky_flow:
     github: luckyframework/lucky_flow
-    commit: b4bf1947598d018513bfd069760081f5c73be24d
+    commit: 88266a67d3eece0ec3a795bc6f652557f978e152
 
   lucky_inflector:
     github: luckyframework/lucky_inflector
@@ -38,11 +38,11 @@ shards:
 
   lucky_migrator:
     github: luckyframework/lucky_migrator
-    commit: 3c1d5efce1ed7c9509c61af2ca6ae53a2ddc0d5e
+    commit: 0a17cbd7334375b30a27c356fb112c672bc30353
 
   lucky_record:
     github: luckyframework/lucky_record
-    commit: 40f1d0635c42a1812a1ca4a91abaeef7be9b4cdd
+    commit: 137631c29572f0781714aa92f2894c90a548e696
 
   lucky_router:
     github: luckyframework/lucky_router

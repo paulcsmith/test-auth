@@ -10,4 +10,5 @@ require "./db/migrations/**"
 # Load Lucky tasks (dev, routes, etc.)
 require "lucky/tasks/**"
 
+Habitat.raise_if_missing_settings!
 LuckyCli::Runner.run
