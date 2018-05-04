@@ -6,5 +6,6 @@ Lucky::RouteHelper.configure do
   else
     # Set domain to the default host/port in development/test
     settings.base_uri = "http://#{Lucky::ServerSettings.host}:#{Lucky::ServerSettings.port}"
+    # TODO: Use Sentry::BROWSERSYNC_PORT in dev so it takes you to the browsersync port
   end
 end
