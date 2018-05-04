@@ -13,8 +13,14 @@ before_install:
 
   # Setup assets
   - yarn install
-  - bin/compile_assets build --production
+  - yarn prod
 script:
   - crystal spec
   # Uncomment the next line if you'd like Travis to check code formatting
   # - crystal tool format spec src --check
+cache:
+  yarn: true
+  directories:
+    - bin/lucky
+    - lib
+    - .shards
