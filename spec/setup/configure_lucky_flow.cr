@@ -1,5 +1,5 @@
 LuckyFlow.configure do
   settings.stop_retrying_after = 200.milliseconds
-  settings.url_root = Lucky::RouteHelper.settings.domain
+  settings.base_uri = Lucky::RouteHelper.settings.base_uri
 end
 Spec.before_each { LuckyFlow.reset }

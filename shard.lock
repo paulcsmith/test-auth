@@ -22,7 +22,7 @@ shards:
 
   lucky:
     github: luckyframework/lucky
-    commit: b060aa65153145f2542c6670df4b8f99fa2285fc
+    commit: e7610ca10ca60873396c7f3a26d08748f78eaad9
 
   lucky_cli:
     github: luckyframework/lucky_cli
@@ -30,7 +30,7 @@ shards:
 
   lucky_flow:
     github: luckyframework/lucky_flow
-    commit: 88266a67d3eece0ec3a795bc6f652557f978e152
+    commit: 5eb8e5192fc722ca144befda4ac19662b615ded7
 
   lucky_inflector:
     github: luckyframework/lucky_inflector
