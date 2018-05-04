@@ -15,7 +15,8 @@ class AuthenticationFlow < LuckyFlow
 
   def sign_out
     visit Me::Show
-    sign_out_button.click
+    # sign_out_button.click
+    click "@sign-out-button"
   end
 
   def sign_in(password)

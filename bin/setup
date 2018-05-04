@@ -19,7 +19,7 @@ echo "\n▸ Installing node dependencies"
 yarn install --silent | indent
 
 echo "\n▸ Compiling assets"
-bin/compile_assets build | indent
+yarn dev | indent
 
 echo "\n▸ Installing shards"
 crystal deps | indent

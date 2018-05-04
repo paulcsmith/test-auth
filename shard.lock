@@ -22,7 +22,7 @@ shards:
 
   lucky:
     github: luckyframework/lucky
-    commit: e7610ca10ca60873396c7f3a26d08748f78eaad9
+    commit: 371e25d6b4283aaec63f64e6d6e3e822aec2b18c
 
   lucky_cli:
     github: luckyframework/lucky_cli
