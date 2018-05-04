@@ -13,5 +13,6 @@ require "../db/migrations/**"
 require "./setup/**"
 
 include Carbon::Expectations
+include LuckyFlow::Expectations
 
 Habitat.raise_if_missing_settings!
