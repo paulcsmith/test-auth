@@ -1,4 +1,4 @@
-class AuthenticationFlow < LuckyFlow
+class AuthenticationFlow < BaseFlow
   private getter email
 
   def initialize(@email : String)

@@ -1,4 +1,4 @@
-class ResetPasswordFlow < LuckyFlow
+class ResetPasswordFlow < BaseFlow
   private getter user, authentication_flow
   delegate sign_in, sign_out, should_have_password_error, should_be_signed_in,
     to: authentication_flow
