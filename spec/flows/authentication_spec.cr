@@ -19,9 +19,13 @@ describe "Authentication flow" do
   # Feel free to delete this once you have other tests using the 'as' option.
   it "allows sign in through backdoor when testing" do
     user = UserBox.create
-    flow = LuckyFlow.new
+    flow = BaseFlow.new
 
     flow.visit Me::Show, as: user
-    flow.el("@sign-out-button").should be_on_page
+    should_be_signed_out(flow)
   end
+end
+
+private def should_be_signed_out(flow)
+  flow.el("@sign-out-button").should be_on_page
 end
